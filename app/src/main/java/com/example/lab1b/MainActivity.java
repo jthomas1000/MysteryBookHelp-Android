@@ -14,9 +14,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        String s = assistance[ r.nextInt(15)];
-        TextView e = findViewById(R.id.programOutput);
-        e.setText(s);
+       findViewById(R.id.pressButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.activity_main);
+                String s = assistance[r.nextInt(15)];
+                TextView e = findViewById(R.id.programOutput);
+                e.setText(s);
+            }
+        }
     }
 }
