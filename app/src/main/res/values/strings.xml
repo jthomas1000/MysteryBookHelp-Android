@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LAB1B</string>
+    <string-array name="help">
+        <item>you get knocked out</item>
+        <item>you go somewhere else</item>
+        <item>your wife has a baby</item>
+        <item>your son died..</item>
+        <item>your daughter died...</item>
+        <item>your wife is cheating on you</item>
+        <item>you have an aneurysm </item>
+        <item>you have a heart attack</item>
+        <item>your mother has a stroke</item>
+        <item>your father dies</item>
+        <item>your dog runs away</item>
+        <item>your house burns down</item>
+        <item>your wife's sister is the murdered</item>
+        <item>your brother has a cow</item>
+        <item>your kid isn't yours</item>
+    </string-array>
+</resources>
